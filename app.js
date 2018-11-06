@@ -8,7 +8,7 @@ L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 
 var markers1 = L.markerClusterGroup();
 for (var i = 0; i < 30; i++) {
-    var marker1 = L.marker([51.5 + (Math.random() / 10), -0.09 + (Math.random() / 10)]);
+    var marker1 = L.marker([35.706589 + (Math.random() / 10), 139.782328 + (Math.random() / 10)]);
     marker1.bindPopup("<b>Hello</b>");
     markers1.addLayer(marker1);
 }
@@ -25,7 +25,7 @@ L.tileLayer('http://tile.openstreetmap.jp/{z}/{x}/{y}.png', {
 
 var markers2 = L.markerClusterGroup();
 for (var i = 0; i < 30; i++) {
-    var marker2 = L.marker([51.5 + (Math.random() / 10), -0.09 + (Math.random() / 10)]);
+    var marker2 = L.marker([35.706589 + (Math.random() / 10), 139.782328 + (Math.random() / 10)]);
     marker2.bindPopup("<b>Hello</b>");
     markers2.addLayer(marker2);
 }
@@ -42,7 +42,7 @@ L.tileLayer('http://{s}.tile.openstreetmap.fr/hot/{z}/{x}/{y}.png', {
 
 var markers3 = L.markerClusterGroup();
 for (var i = 0; i < 30; i++) {
-    var marker3 = L.marker([51.5 + (Math.random() / 10), -0.09 + (Math.random() / 10)]);
+    var marker3 = L.marker([35.706589 + (Math.random() / 10), 139.782328 + (Math.random() / 10)]);
     marker3.bindPopup("<b>Hello</b>");
     markers3.addLayer(marker3);
 }
