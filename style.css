@@ -1,3 +1,10 @@
-#mapid {
+.map-wrap {
+    margin-left: 60px;
+    margin-right: 60px;
+}
+.map-wrap~.map-wrap {
+    margin-top: 40px;
+}
+.map {
     height: 500px;
 }
